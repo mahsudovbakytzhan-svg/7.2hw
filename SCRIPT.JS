@@ -28,10 +28,11 @@ console.log("var:", x);
 
 let name = prompt("Введите ваше имя:");
 let age = prompt("Введите ваш возраст:");
-
+console.log(name,age)
 
 console.log (Number(null )) // бұл да сондай санга айналдырса 0 шыгады 
 console.log (String(null)) // null озын кайтарады 
 
 console.log(Number(undefined)) // undefined санга айналдыруга болмайды сондыктан NaN деп шыгады Not-a-Number деп кайтарады 
 console.log(String(undefined)) // жолга айналдырган кезде озын кайтарады undefined
+
